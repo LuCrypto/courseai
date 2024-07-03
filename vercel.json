@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "pages/api/**/*.ts": {
+      "maxDuration": 300,
+      "memory": 3009
+    },
+    "app/api/**/route.ts": {
+      "maxDuration": 300,
+      "memory": 3009
+    }
+  }
+}
